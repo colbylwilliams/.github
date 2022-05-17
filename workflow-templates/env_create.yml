@@ -9,7 +9,6 @@ concurrency: ${{ github.event.number || github.ref_name }}
 
 jobs:
   config:
-    if: github.event_name == 'pull_request' || github.event.ref_type == 'branch'
     name: Get Environment
     uses: colbylwilliams/msdev/.github/workflows/env_config.yml@main
 

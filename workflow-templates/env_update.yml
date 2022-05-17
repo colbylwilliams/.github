@@ -9,7 +9,6 @@ concurrency: ${{ github.event.number || github.ref_name }}
 
 jobs:
   config:
-    if: github.event_name == 'pull_request' || (contains(github.event.ref, 'refs/heads') && !github.event.created)
     name: Get Environment
     uses: colbylwilliams/msdev/.github/workflows/env_config.yml@main
 
