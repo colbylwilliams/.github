@@ -1,0 +1,11 @@
+{
+    "name": "Create Fidalgo Environment",
+    "description": "Fidalgo Environment create starter workflow.",
+    "iconName": "azure",
+    "categories": [],
+    "filePatterns": [
+        "project.yml",
+        "project.yaml",
+        ".*\\.md$"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Delete Fidalgo Environment",
+    "description": "Fidalgo Environment delete starter workflow.",
+    "iconName": "azure",
+    "categories": [],
+    "filePatterns": [
+        "project.yml",
+        "project.yaml",
+        ".*\\.md$"
+    ]
+}
