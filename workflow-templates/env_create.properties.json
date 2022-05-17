@@ -4,8 +4,6 @@
     "iconName": "azure",
     "categories": [],
     "filePatterns": [
-        "project.yml",
-        "project.yaml",
-        ".*\\.md$"
+        "project.yml"
     ]
 }
