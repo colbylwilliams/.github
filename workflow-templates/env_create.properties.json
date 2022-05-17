@@ -1,6 +1,6 @@
 {
     "name": "Create Fidalgo Environment",
-    "description": "Fidalgo Environment create starter workflow.",
+    "description": "Dynamically create Fidalgo environments for branches and PRs.",
     "iconName": "azure",
     "categories": [],
     "filePatterns": [
