@@ -1,6 +1,6 @@
 {
     "name": "Create Fidalgo Environment",
-    "description": "Dynamically create Fidalgo environments for branches and PRs.",
+    "description": "Dynamically create Fidalgo environments for branches and pull requests.",
     "iconName": "azure",
     "categories": [],
     "filePatterns": [
