@@ -40,3 +40,6 @@ jobs:
         if: ${{ steps.msdev.outputs.exists == 'true' && steps.msdev.outputs.created == 'false' }}
         run: |
           az fidalgo admin environment deploy -g ${{ steps.msdev.outputs.project_group }} --project-name ${{ steps.msdev.outputs.project_name }} -n ${{ needs.config.outputs.name }}
+
+      - name: DEPLOY CODE HERE
+        run: echo "deploy source code to ${{ steps.msdev.outputs.group }}"
