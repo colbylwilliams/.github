@@ -1,6 +1,6 @@
 {
-    "name": "Update Fidalgo Environment",
-    "description": "Automatically update Fidalgo environments created with Create Environment workflow.",
+    "name": "Update Azure Deployment Environment",
+    "description": "Automatically update Azure Deployment Environments created with Create Environment workflow.",
     "iconName": "azure",
     "categories": [],
     "filePatterns": [

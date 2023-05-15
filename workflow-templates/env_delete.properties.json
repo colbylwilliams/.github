@@ -1,6 +1,6 @@
 {
-    "name": "Delete Fidalgo Environment",
-    "description": "Automatically delete Fidalgo environments created with Create Environment workflow.",
+    "name": "Delete Azure Deployment Environment",
+    "description": "Automatically delete Azure Deployment Environments created with Create Environment workflow.",
     "iconName": "azure",
     "categories": [],
     "filePatterns": [
